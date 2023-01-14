@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header-section-style */
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo{
+
+}
+.menu{
+    
+}
+.menu ul{
+    list-style: none;
+}
