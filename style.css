@@ -235,6 +235,18 @@ img{
     border-radius: 5px;
     height: 150px;
     width: 150px;
+    transition: .4s;
+    cursor: pointer;
+}
+.fact-item:hover{
+    background: #FF900E;
+    transform: translateY(-10px);
+}
+.fact-item:hover h2{
+    color: #fff;
+}
+.fact-item:hover p{
+    color: #fff;
 }
 .fact-item img{
     height: 50px;
@@ -245,6 +257,22 @@ img{
     font-size: 25px;
     color: #424242;
 
+}
+/* portfolio section */
+.portfolio{
+    
+}
+.portfolio-container{
+    width: 75em;
+    margin: auto;
+}
+.portfolio-title{
+    width: 60%;
+}
+.portfolio-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: ;
 }
 /* sponspor section style */
 .sponspor{
