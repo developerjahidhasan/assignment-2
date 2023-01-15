@@ -59,8 +59,10 @@ body{
 .brand-items p{
     font-size: 1em;
     color: #727272;
+    line-height: 26px;
+    margin: 20px 0;
 }
-.brand-items .pramary-btn{
+.pramary-btn{
     padding: 20px 25px;
     background: #FF900E;
     border-radius: 5px;
@@ -68,7 +70,7 @@ body{
     margin-top: 20px;
     transition: .4s;
 }
-.brand-items .pramary-btn a{
+.pramary-btn a{
     font-size: 1.250em;
     font-weight: 600;
     text-decoration: none;
@@ -76,7 +78,7 @@ body{
  
 
 }
-.brand-items .pramary-btn:hover{
+.pramary-btn:hover{
     padding: 20px 25px;
     background: #d67505;
     border-radius: 5px;
@@ -89,6 +91,84 @@ body{
     height: 37em;
     margin-top: 50px;
 }
+/* feature section style */
+.featurs-sec{
+    margin: 80px 0;
+}
+.feature-container{
+    width: 75em;
+    margin: auto;
+}
+.feature-items{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.500em;
+    row-gap: 1.500em;
+}
+.feature-info .quick{
+    font-size: 2.4em;
+    font-weight: 500;
+    color: #727272;
+}
+.feature-info .our{
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #131313;
+
+}
+.feature-info .feature{  
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #FF900E;
+}
+.feature-info p{
+    font-size: 16px;
+    color: #727272;
+    margin: 20px 0;
+    line-height: 26px;
+}
+/* feature option style */
+.feature-option{
+    margin: 130px 0px;
+    display: flex;
+}
+.feature-op-left{
+    width: 50%;
+}
+.feature-op-ti-contain{
+    display: flex;
+    gap: 10px;
+    line-height: 52px;
+    color: #131313;
+}
+.ti-div-1{
+    height: 106px;
+    width: 5px;
+    background: #FF900E;
+}
+.ti-div-2 h1{
+    font-size: 2.813em;
+    font-weight: 700;
+}
+.feature-op-right{
+    width: 50%;
+}
+.feature-op-right img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -130,4 +210,23 @@ body{
         color: #131313;
         font-weight: 700;
     }
+    /* feature section responsive style */
+    .feature-container{
+        width: 100%;
+    }
+    .feature-items{
+        flex-direction: column;
+    }
+    .feature-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1.500em;
+    }
+    .feature-info{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+
 }
