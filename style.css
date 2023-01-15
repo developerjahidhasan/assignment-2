@@ -8,6 +8,12 @@ body{
     font-family: 'Work Sans', sans-serif;
     margin: 0px 0px;
 }
+p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #727272;
+}
 /* Header-section-style */
 .header{
     background: #fff4e7;
@@ -136,9 +142,13 @@ body{
 .feature-option{
     margin: 130px 0px;
     display: flex;
+    gap: 60px;
 }
 .feature-op-left{
     width: 50%;
+}
+.feature-op-left p{
+    margin: 25px 0;
 }
 .feature-op-ti-contain{
     display: flex;
@@ -158,13 +168,88 @@ body{
 .feature-op-right{
     width: 50%;
 }
-.feature-op-right img{
+img{
     width: 100%;
 }
+.feature-box-1{
+    box-shadow: 1px 1px 15px 15px rgba(0, 0, 0, .05);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.feature-box-1 h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.feature-box-1 p{
+    margin: 10px 0;
+}
+.expariance {
+	padding: 40px;
+	background-color: #FF900E;
+	border-radius: 5px;
+	text-align: center;
+	position: relative;
+	margin-left: -39px;
+	width: 43%;
+	margin-top: -20%;
+}
+.expariance h1{
+    font-size: 4em;
+    font-weight: 700;
+    color: #fff;
+}
+.expariance p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+/* facts section style */
+.facts-section{
+    margin: 130px 0;
+}
+.facts-container{
+    width: 75em;
+    margin: auto;
+}
+.facts-title{
+    width: 40%;
+}
+.facts-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 24px;
+    color: #131313;
+}
+.facts-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.fact-item{
+    border: 1px solid #FF900E;
+    padding: 40px 30px;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+}
+.fact-item img{
+    height: 50px;
+    width: 50px;
+}
+.fact-item h2{
+    margin: 10px 0;
+    font-size: 25px;
+    color: #424242;
 
+}
 
-
-
+.fact-item p{
+    
+}
 
 
 
@@ -227,6 +312,56 @@ body{
         width: 80%;
         margin: auto;
     }
+/* feature option responsive style */
+    .feature-option{
+        flex-direction: column;
+        margin: 70px 0;
+    }
+    .feature-op-right{
+        width: 90%;
+        margin: auto;
+        
+    }
+    .feature-op-left{
+        width: 90%;
+        margin:auto;
+    }
+    img{
+        width: 100%;
+        margin:auto;
+    }
+    .expariance{
+        margin-left: 20%;
+        width: 50%;
+        padding: 30px;
+        
+    }
+    .expariance h1{
+        font-size: 40px;
+        width: 80%;
+        margin:auto;
 
+    }
+    .expariance p{
+        font-size: 20px;
+        width: 50%;
+        margin: auto;
 
+    }
+    /* facts responsive style */
+    .facts-container{
+        width: 100%;
+        margin: auto;
+    }
+    .facts-items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .facts-title{
+        width: 100%;
+        text-align: center;
+    }
+    .fact-item{
+        margin-bottom: 20px;
+    }
 }
