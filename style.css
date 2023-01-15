@@ -17,7 +17,7 @@ body{
 .nav-container{
     display: flex;
     justify-content: space-between;
-    max-width: 75em;
+    width: 75em;
     margin: auto;
     align-items: center;
 }
@@ -97,3 +97,37 @@ body{
 
 /* Responsive media quariy */
 /* Mobile Device */
+@media only screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .menu ul a{
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* brand section */
+    .brand-sec{
+        background: #fff4e7;
+        padding: 20px 0 50px 0;
+    }
+    .brand-container{
+        width: 100%;
+    }
+    .banner img{
+        width: 80%;
+        height: auto;
+    }
+
+    .brand-items h1{
+        font-size: 3em;
+        margin-bottom: 10px;
+        color: #131313;
+        font-weight: 700;
+    }
+}
